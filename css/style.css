@@ -39,7 +39,7 @@ div{
 	height: 80px;
 	background-color: black;
 	border-bottom: 5px solid #fdf731;
-	overflow: auto;
+	
 }
 
 .logo {
@@ -52,9 +52,8 @@ div{
 	width: 40%;
 }
 
-.nav {
-	width: 100%;
-	color: white;
+.active {
+	background-color: #c6c6c6;
 }
 
 ul {
@@ -62,17 +61,22 @@ ul {
 }
 
 
-li {
+.nav li {
 	font-size: 20px;
 	display: inline-block;
 	float: right;
-	padding-right: 30px;
-	padding-top: 10px;
+}
+
+nav ul li a {
+	padding: 30px;
+	line-height: 50px;
 }
 
 .bold_li {
 	font-family: Oswald;
 	font-weight: 700;
+
+
 }
 
 .light_li {
@@ -177,6 +181,7 @@ h3  {
 	margin-left: 50px;
 	margin-top: 10px;
 	box-shadow:0px 3px #b1ab01;
+	cursor: pointer;
 }
 
 .create_profile {
@@ -242,6 +247,8 @@ h3  {
 	margin-left: 10%;
 	margin-top: 10px;
 	box-shadow:0px 3px #737373;
+	/*This is how to make a cursor over button*/
+	cursor: pointer;
 }
 
 .action_button_text {
@@ -262,6 +269,112 @@ h3  {
 	padding-left: 30px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+}
+
+/*FOOTER*/
+
+footer {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	
+}
+
+.copyright {
+	font-size: 20px;
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	color: white;
+	padding: 30px 0px 30px 20px;
+}
+
+/*DEVELOPER GRID*/
+
+
+
+.grid_background {
+	background-color: #c6c6c6;
+}
+
+.profile_row {
+	width: 100%;
+	/*border: 1px solid black;*/
+	
+}
+
+.profile_block {
+	width: 320px;
+	height: 450px;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+.profile_pic {
+	width: 280px;
+	height: 280px;
+	background-color: #c6c6c6;
+	margin: 10px;
+	text-align: center;
+}
+
+.profile_sizeing {
+	font-size: 20px;
+	font-family: Oswald;
+	font-weight: 400;
+	color: #808080;
+	padding: 150px 0px 0px 0px;
+	margin: 0px;
+
+}
+
+.name {
+	font-size: 20px;
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	color: black;
+	padding: 10px 0px 10px 10px;
+	margin: 0px;
+}
+
+.skills_li {
+	
+	margin: 0px 10px 0px 10px;
+	padding: 0px;
+}
+
+.skills {
+	height: 26px;
+	background-color: #666666;
+	font-size: 16px;
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	padding: 4px 10px;
+	display: inline-block;
+
+}
+
+.contact_button {
+	width: 60;
+	height: 40px;
+	text-align: center;
+	background-color: #fdf731;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	box-shadow:0px 3px #b1ab01;
+}
+
+.contact_text {
+	font-size: 16px;
+	font-family: Oswald;
+	font-weight: 700;
+	color: black;
+	padding-top: 10px;
+	margin: 0px;
 }
 
 

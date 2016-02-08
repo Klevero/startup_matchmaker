@@ -10,6 +10,16 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro:400,700|Merriweather:400,700,700italic' rel='stylesheet' type='text/css'>
+
+	<!--JavaScript-->
+	<script type="text/javascript">
+	function pop_up(mssg) {
+		alert(mssg);
+	}
+    
+	</script>
+	<!--JavaScript-->
+
 </head>
 <body>
 
@@ -19,13 +29,13 @@
 
 		<nav class="nav">
 			<ul class="fr">
-				<li><a class="light_li" href="blog.html">Blog</a>
+				<li class="nav_li"><a class="light_li" href="blog.html">Blog</a>
 				</li>
-				<li><a class="light_li" href="our_team.html">Our Team</a>
+				<li class="nav_li"><a class="light_li" href="our_team.html">Our Team</a>
 				</li>
-				<li><a class="light_li" href="how_it_works.html">How it Works</a></li>
-				<li><a class="bold_li" href="find_designers.html">FIND DESIGNERS</a></li>
-				<li><a class="bold_li" href="find_developers.html">FIND DEVELOPERS</a></li>
+				<li class="nav_li"><a class="light_li" href="how_it_works.html">How it Works</a></li>
+				<li class="nav_li"><a class="bold_li" href="find_designers.html">FIND DESIGNERS</a></li>
+				<li class="nav_li"><a class="bold_li" href="find_developers.html">FIND DEVELOPERS</a></li>
 			</ul>
 			<div class="clear"></div>
 		</nav>
@@ -44,7 +54,7 @@
 		<div class="profile_box">
 			<h3>Meet your Match!</h3>
 			<p class="about_p">Have a great idea for a product, but need help making it a reality?  We're here to help.  Startup Matchmaker is the best place for designers and developers to find each other.</p>
-			<div class="yellow_button">
+			<div class="yellow_button" onclick="pop_up('We re Not Ready For Creating Profiles...Yet.')">
 				<h4 class="create_profile">CREATE A PROFILE</h4>
 		</div>		
 	</div>
@@ -57,7 +67,7 @@
 		<div class="action_column fl">
 			<h5 class="action_header">Create a profile</h5>
 			<p class="action_paragraph">Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
-			<div class="action_button"><h4 class="action_button_text">SIGN UP NOW</h4>
+			<div onclick="pop_up('We re Not Ready For Sign-Ups...Yet.')" class="action_button"><h4 class="action_button_text">SIGN UP NOW</h4>
 			</div>
 		</div>
 
@@ -76,6 +86,13 @@
 		</div>
 
 	</div>
+
+
+<!--FOOTER-->
+
+	<footer>
+		<p class="copyright">© 2013 Startup Matchmaker. Made in NY.</p>
+	</footer>
 
 
 
